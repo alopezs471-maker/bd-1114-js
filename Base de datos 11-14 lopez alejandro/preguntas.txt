@@ -1,0 +1,19 @@
+//PREGUNTAS
+
+1.Que pasa con este codigo si necesito 5 filtros? Y si necesito 10?
+1. Manejo de múltiples filtros (5 a 10)
+Si intentas escribir una consulta manual para cada combinación de filtros, el código se vuelve gigante e imposible de mantener. Lo correcto es construir la consulta de forma dinámica. Se empieza con una consulta base y el programa evalúa cuáles filtros envió el usuario para ir pegando las condiciones correspondientes junto con sus valores.
+
+
+2.Si cierro el programa, donde quedaron los datos?
+Los datos no se pierden al apagar la computadora ni al cerrar la terminal. Se quedan guardados físicamente dentro del archivo escuela.db que se creó en la misma carpeta del proyecto. SQLite almacena toda la base de datos (tablas, índices y registros) en ese único archivo.
+
+
+3.Que alumnos se inscribieron a "Base de Datos"?
+2 alumnos 
+
+
+
+4.Cuantos cursos tiene cada alumno?
+
+1
